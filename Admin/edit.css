@@ -1,0 +1,135 @@
+@media all {
+
+body {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    font-size: 0.8em;
+}
+
+table{
+    table-layout: fixed;
+}
+
+td, th {
+    width:12%;
+    height:15px;
+    font-size: 0.8em;
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+th.short, td.short{
+    width:7%;
+    text-align: center;
+}
+
+th {
+    font-size: 0.8em;
+    text-align: left; 
+    background-color: #A7C942;
+    color: #ffffff;
+}
+
+
+tr.alt {
+    color: #000000;
+    background-color: #EAF2D3;
+}
+
+th, td.left {
+    text-align: left;
+}
+
+
+
+}
+
+@media print{
+    
+    
+
+    h1{
+        font-size: 12pt
+    }
+    
+    body, h2{
+        font-size: 8pt;
+    }
+    
+    h2{
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    
+    td, th, {
+    font-size: 8pt;
+    text-align: left;
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+    border-bottom:1px solid silver;
+    border-top:1px solid silver;
+    padding-right: 3pt;
+    background-color: white;
+    }
+    
+   tr{
+font-size: 8pt;
+}
+
+    th {
+    font-size: 6pt;
+    text-align: left; 
+    background-color: silver;
+    color: #000000;
+    }
+    
+    td, th{
+        width: 12%
+    }
+    td.short, th.short{
+        width: 6%;
+        text-align: center;
+    }
+    
+    table {
+        margin-top: 5px;
+        border-collapse: collapse;
+        border: 1px solid black;
+    }
+    
+    THEAD{
+        border-bottom:1px solid black;
+        border-top:1px solid black;
+    }
+    
+    tr.alt {
+    background-color: #F0F0F0 ;
+}
+
+    *.last {
+    border-top:1px solid black;
+    }
+    
+    *.noprint {
+        display:none;
+    }
+    
+*.long{
+        width: 20%;
+        text-align: center;
+    }
+
+    *.header {
+        
+        }
+
+p{
+page-break-inside: avoid;
+}
+
+}
+
+@media screen{
+    
+}

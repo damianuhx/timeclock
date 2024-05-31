@@ -1,0 +1,53 @@
+<html>
+<h1>Anleitung Stempeluhr-Datenbank</h1>
+
+<h3>Einloggen</h3>
+
+Gehen Sie auf http://www.pmd.li/stempeluhr/adminer.php und loggen Sie sich mit folgenden Daten ein:
+<br><br>
+Server: localhost<br>
+Benutzer: web233<br>
+Passwort: haben berechtige Personen per Mail erhalten<br>
+Datenbank: usr_web233_7<br>
+
+<img src="Pics/db1.png" border="4"><br><br>
+
+Es erscheint nun eine Liste mit allen Tabellen (inkl. automatisch generierten Tabellen, sogenannte "Views")<br><br>
+
+<img src="Pics/db2.png" border="4"><br><br>
+    
+<h3>Mitarbeiter</h3>
+
+Wechseln Sie zur Tabelle "mitarbeiter" und tragen Sie einen neuen Mitarbeiter ein:
+<br><br>
+Mitarbeiter_id: leer lassen, wird automatisch generiert<br>
+Nachname/Vorname: Nach- resp. Vorname des Mitarbeiters. Name muss eindeutig sein.<br>
+Monatslohn: 1 = Ist im Monatslohn angestellt und erh&auml;lt Samstagszulage; 0 = keine Samstagszulage<br>
+
+<img src="Pics/db4.png" border="4">
+    
+<br><br>
+Wechseln Sie nun zur Datenansicht unter "Daten ausw&auml;hlen". Dort sehen Sie in der spalte "mitarbeiter_id" welche ID
+dem eingetragenen Mitarbeiter zugeordnet wurde. Wenn ein Zeiteintrag oder Arbeitsort dieses Mitarbeiters in der entsprechenden
+Tabelle ge&auml;ndert werden soll, brauchen Sie diese ID um auf diesen Mitarbeiter zu verweisen.
+<br><img src="Pics/db3.png" border="4">
+<br><br>
+
+<h3>Filialen</h3>
+
+Wechseln Sie zur Tabelle "filialen" dort k&ouml;nnen Sie die ID f&uuml;r jede Filiale unter "filialen_id" entnehmen.
+Klicken Sie auf "Daten ausw&auml;hlen" um sich alle Filialen anzeigen zu lassen.
+<br><br>
+<h3>Arbeitsort</h3>
+
+Hier k&ouml;nnen Sie eintragen welcher Mitarbeiter ("mitarbeiter_id") in welcher Filiale ("filialen_id") arbeiten kann.
+Es werden beim Anmelden in einer Filiale nur Mitarbeiter zur Auswahl stehen, deren Mitarbeiter-ID in dieser Tabelle f&uuml;r
+die entsprechende Filialen-ID einen Eintrag haben.
+<br><br>
+<h3>Zeitstempel</h3>
+
+Hier k&ouml;nnen Sie Zeiteintr&auml;ge manuell hinzuf&uuml;gen, entfernen oder &auml;ndern. Achten Sie auf die korrekten
+Mitarbeiter- und Filialen-IDs. "zeitstempel_id" und "last_updateted" werden automatisch gerneriert. M&uuml;ssen also leer
+gelassen werden.
+<br><br>
+</html>

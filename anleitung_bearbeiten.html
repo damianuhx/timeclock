@@ -1,0 +1,33 @@
+<html>
+<h1><u>Anleitung Bearbeitung</u></h1>
+
+<br>
+    
+<h3>1. Gehen Sie auf <a href="bearbeiten.php">www.pmd.li/stempeluhr/bearbeiten.php</a><h3>
+
+<h3>2. W&auml;hlen Sie die Tabelle, die Sie bearbeiten m&ouml;chten und klicken sie auf "Anzeigen".</h3>
+    
+<img src="/stempeluhr/Pics/be1.png" border="4" alt="Bild1" />
+
+<br><br>
+    
+<h3>3. W&auml;hlen Sie welche Eintr&auml;ge Sie angezeigt haben m&ouml;chten. Benutzen Sie dazu einerseits die Drop-Down-Menus und anderseits das Text-Eingabefeld. Dort k&ouml;nnen Sie SQL-Befehle verwenden um komplexere Bedingungen zu formulieren.</h3>
+<ul>
+    <li>Die Bedingungen werden mit "AND" verkn&uuml;pft. Falls in mindestens einem Drop-Down Menu ein Eintrag ausgew&auml;hlt wurde (resp. etwas anderes als "ALLE" ausgew&auml;hlt wurde) schreiben Sie "AND" auch vor die erste Bedingung. Sonst nicht.</li>
+    <li>Die Bedingungen verhalten sich nach folgendem dem Prinzip: VARIABLE = "WERT", z.B. 'nachname="Quadri".</li>
+    <li>Es lassen sich auch die mathematischen Operatoren '>' (gr&ouml;sser als), '<' (kleiner als) und '<>' (ungleich) verwenden</li>
+    <li>Es k&ouml;nnen auch Befehle auf die Variablen angewendet werden, um z.B. das Jahr oder den Monat eines Zeitstempels zu extrahieren: 'MONTH(angemeldet)="8" AND YEAR(angemeldet)="2014'. </li>
+</ul>
+<img src="/stempeluhr/Pics/be2.png" border="4" alt="Bild2" />
+
+<br><br>
+    
+<h3>4. Es erscheinen nun alle Eintr&auml;ge, die Ihren Suchkriterien entsprechen. Sie k&ouml;nnen diese Eintr&auml;ge &auml;ndern oder l&ouml;schen. Um einen neuen Eintrag hinzuzuf&uuml;gen benutzen Sie die oberste Zeile.</h3>
+
+<img src="/stempeluhr/Pics/be3.png" border="4" alt="Bild3" />
+
+<br><br>
+    
+<h3>5. Sie sehen nun den SQL-Befehl der ausgef&uuml;hrt wurde und ob dieser erfolgreich war oder welche Fehlermeldung zur&uuml;ckgegeben wurde.</h3>
+
+<img src="/stempeluhr/Pics/be4.png" border="4" alt="Bild4" />
