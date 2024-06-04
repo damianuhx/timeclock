@@ -2,7 +2,7 @@ This is a webapp for tracking working times and generating monthly reports. It w
 
 The application features:
 
-* Log in and out with one simple click on the same computer. (The employees in the store do not have their own computer).
+* Log in and out with one simple click on the same computer. (The employees in the store do not have their own computer and their long fingernails prevent them from doing complex tasks).
 * Different rules depending on the region. (Kantönligeist)
 * Different opening times and holidays in each region.
 * Different types of employment (paid by hour or month), different types of stores.
