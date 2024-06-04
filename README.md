@@ -1,4 +1,6 @@
-This is a webapp for tracking working times and generating monthly reports. It was built in 2014 for a chain of around 20 stores in Switzerland. The application features:
+This is a webapp for tracking working times and generating monthly reports. It was built in 2014 for a chain of around 20 stores in Switzerland. The App has been used daily since 10 years and run always stable and flawless. It was my first webapp built in vanilla PHP without any plugin or framework. It requires PHP 7 in order to run.
+
+The application features:
 
 * Log in and out with one simple click on the same computer. (The employees in the store do not have their own computer).
 * Different rules depending on the region. (Kantönligeist)
