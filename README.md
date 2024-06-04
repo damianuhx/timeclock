@@ -10,4 +10,4 @@ The application features:
 * Creating monthly reports according to the Swiss law.
 
 Further details (in German) can be found in the files anleitung.html, anleitung_abrechnung.html, anleitung_bearbeiten.html, anleitung_db.html.
-Please contact me iff you need any help in geting the app up and running.
+Please contact me if you need any help in geting the app up and running.
